@@ -7,7 +7,7 @@ This isn't a new problem so it seems that there would be a proven, and open, sol
 not found one.
 
 * [mysqlnd_ms](https://pecl.php.net/package/mysqlnd_ms), or Sergio Tabnelli's
-  [fork](https://github.com/sergiotabanelli/mysqlnd_ms) would seem like a good starting point but
+  [fork](https://github.com/sergiotabanelli/mysqlnd_ms), would seem like a good starting point but
   the failover options are extremely limited without another monitoring solution such as ClusterControl.
   This may be part of the solution, but it's not the entire solution.
 * 
