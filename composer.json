@@ -1,0 +1,25 @@
+{
+  "name": "davenusbaum/dbmonitor",
+  "type": "library",
+  "description": "A Database Monitor for PHP",
+  "license": "GPL-3.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "David Nusbaum",
+      "email": "david.nusbaum@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=7.0 < 10"
+  },
+  "autoload": {
+    "psr-4": {
+      "DbMonitor\\": "src/DbMonitor/"
+    }
+  }
+}
